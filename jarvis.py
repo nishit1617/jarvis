@@ -83,12 +83,6 @@ if __name__=="__main__":
                 print(songs)
                 random = os.startfile(os.path.join(music_dir, songs[5]))
 
-            elif "will you be my gf" in query:
-                speak("I'm not sure about, may be you should give me some time")
-
-            elif "i love you" in query:
-                speak("i love you to nishit")
-
             elif "how are you" in query:
                 speak("i am fine nishit, How are you")
 
